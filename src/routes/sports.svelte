@@ -2,8 +2,8 @@
 	export const prerender = true;     
 </script>
 
-<script>   
-	import Headlines from '$lib/Headlines.svelte'
+<script>
+    import Technology from '$lib/Technology.svelte';
 </script>
 
 <svelte:head>
@@ -14,12 +14,12 @@
 </svelte:head>
 
 <main>
-	<Headlines/>  
+	<Technology/>  
 </main>
 
 
 <style>
-
+	
 	main {
 		text-align: center;
 		padding-inline: 30vw;

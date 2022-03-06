@@ -1,7 +1,7 @@
 <script>
 
-    import { onMount } from 'svelte'; 
-    import Links from './Links.svelte';
+    import { onMount } from 'svelte'  
+    import Links from './Links.svelte'
 
     export let headlines = []
 
@@ -9,8 +9,9 @@
 
    // @ts-ignore
    const key = import.meta.env.VITE_KEY 
+   
 
-    const url = `http://api.mediastack.com/v1/news?access_key=${key}&languages=en`
+    const url = `http://api.mediastack.com/v1/news?access_key=${key}&languages=en&&categories=business` 
 
     onMount( async () => {  
 

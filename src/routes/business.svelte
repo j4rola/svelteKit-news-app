@@ -1,9 +1,10 @@
 <script context="module">
-	export const prerender = true;     
+	export const prerender = true; 
+    import Business from '$lib/Business.svelte'     
 </script>
 
 <script>   
-	import Headlines from '$lib/Headlines.svelte'
+	
 </script>
 
 <svelte:head>
@@ -14,7 +15,7 @@
 </svelte:head>
 
 <main>
-	<Headlines/>  
+	<Business/>  
 </main>
 
 
